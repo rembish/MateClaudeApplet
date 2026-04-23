@@ -1,0 +1,3 @@
+mate-claude-applet usr/libexec/
+org.mate.applets.MateClaudeApplet.mate-panel-applet usr/share/mate-panel/applets/
+org.mate.panel.applet.MateClaudeAppletFactory.service usr/share/dbus-1/services/

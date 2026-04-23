@@ -1,0 +1,11 @@
+[Applet Factory]
+Id=MateClaudeAppletFactory
+InProcess=false
+Location=/usr/libexec/mate-claude-applet
+Name=Mate Claude Applet Factory
+Description=Factory for the Claude Usage panel applet
+
+[MateClaudeApplet]
+Name=Claude Usage
+Description=Shows Claude plan 5h window and weekly usage
+Icon=utilities-system-monitor

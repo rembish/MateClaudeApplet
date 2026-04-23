@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	# pure Python, nothing to compile
+
+override_dh_auto_install:
+	# handled by dh_install via debian/mate-claude-applet.install
+
+override_dh_auto_clean:
+	# nothing to clean
+
+override_dh_fixperms:
+	dh_fixperms
+	chmod 0755 debian/mate-claude-applet/usr/libexec/mate-claude-applet

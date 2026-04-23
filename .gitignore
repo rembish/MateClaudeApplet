@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+
+# debhelper working directories and generated files
+debian/.debhelper/
+debian/mate-claude-applet/
+debian/debhelper-build-stamp
+debian/files
+debian/*.log
+debian/*.substvars
